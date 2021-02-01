@@ -2,6 +2,10 @@
 [![Download](https://img.shields.io/github/downloads/joonas-fi/baikal-dockerimage/total.svg?style=for-the-badge)](https://github.com/joonas-fi/baikal-dockerimage/releases)
 [![Download](https://img.shields.io/docker/pulls/joonas/baikal.svg?style=for-the-badge)](https://hub.docker.com/r/joonas/baikal/)
 
+Docker image for [Baïkal](https://github.com/sabre-io/Baikal/).
+
+([Their own Docker image is in planning stages](https://sabre.io/baikal/docker-ready/).)
+
 
 How to run
 ----------
