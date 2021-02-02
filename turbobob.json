@@ -22,7 +22,6 @@
 		{
 			"image": "joonas/baikal",
 			"dockerfile_path": "Dockerfile",
-			"platforms": ["linux/amd64"],
 			"auth_type": "creds_from_env"
 		}
 	],
