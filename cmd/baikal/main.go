@@ -26,7 +26,7 @@ func logic(ctx context.Context, logger *log.Logger) error {
 	cgiTcpAddr := "127.0.0.1:8081"
 
 	// ensure DB dir exists (convenience util so user can mount empty directory from Docker host)
-	if err := os.MkdirAll("Specific/db", osutil.FileMode(osutil.OwnerRW, osutil.GroupRW, osutil.OtherNone)); err != nil {
+	if err := os.MkdirAll("Specific/db", osutil.FileMode(osutil.OwnerRWX, osutil.GroupRWX, osutil.OtherNone)); err != nil {
 		return err
 	}
 
